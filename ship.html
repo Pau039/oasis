@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Plant Shipping</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #e0f2f1, #b2dfdb); /* Gradient Blue-Green */
+        }
+
+        header {
+            background: linear-gradient(to right, #5df887, #195621); /* Gradient Dark Blue-Indigo */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #3498db; /* Blue */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #bdc3c7; /* Silver */
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .status span {
+            margin-left: 10px;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        .status .pending {
+            color: #f39c12; /* Orange */
+        }
+
+        .status .shipped {
+            color: #27ae60; /* Green */
+        }
+
+        .status .delivered {
+            color: #3498db; /* Blue */
+        }
+
+        /* Plant Theme */
+        .plant-icon {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        /* Elegant Decoration */
+        .decor-line {
+            border-top: 2px solid #bdc3c7; /* Silver */
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Green Oasis Plant Shipping</h1>
+    </header>
+
+    <section>
+        <h2>Product Details</h2>
+        <table>
+            <tr>
+                <th>Product Name</th>
+                <td>Palm Seeds</td>
+            </tr>
+            <tr>
+                <th>Order Number</th>
+                <td>876543210</td>
+            </tr>
+            <tr>
+                <th>Shipping Address</th>
+                <td>Col. A. Labitigan, Brgy. Poblacion 4, Sariaya Quezon,</td>
+            </tr>
+        </table>
+
+        <div class="decor-line"></div>
+
+        <h2>Shipping Status</h2>
+        <div class="status shipped">
+            <img class="plant-icon" src="pal.gif" alt="Leaf Icon">
+            <span>Shipped</span>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247832.76225498787!2d121.3354146189617!3d13.935553102746912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4940187e975d%3A0x231e682a37c8dabf!2sSariaya%2C%204322%20Quezon!5e0!3m2!1sen!2sph!4v1700878753495!5m2!1sen!2sph" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <div class="decor-line"></div>
+
+    <div class="footer">
+        &copy; 2023 Green Oasis Plant Shipping. All rights reserved.
+    </div>
+
+</body>
+</html>
